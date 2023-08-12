@@ -13,10 +13,48 @@ body {
 
 /* ----------- Utility CSS --------------- */
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.content-block {
+  @apply shadow-1 bg-primary-800/80 md:bg-primary-700/60 md:hover:bg-primary-800/80 rounded-xl transition-all ease-out duration-500;
+}
+
+.image-behavior {
+  @apply w-full h-full object-cover object-center opacity-90 group-hover:scale-105 transition-transform ease-out duration-500;
+}
+
+.title-bahavior {
+  @apply text-lg tn:text-xl xl:text-2xl;
+}
+
+.text-behavior {
+  @apply text-sm tn:text-base xl:text-xl;
+}
+
+.card-title-bahavior {
+  @apply text-lg tn:text-2xl sm:text-lg lg:text-2xl xl:text-lg 2xl:text-2xl;
+}
+
+.card-text-behavior {
+  @apply text-base tn:text-xl sm:text-base lg:text-xl xl:text-base 2xl:text-xl;
+}
+
 /* Flexbox */
 
 .fx-center {
-  @apply flex flex-row items-center justify-center;
+  @apply flex items-center justify-center;
 }
 
 .fx-col-center {
