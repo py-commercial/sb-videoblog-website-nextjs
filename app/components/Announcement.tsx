@@ -1,6 +1,6 @@
-import IAnnouncementProps from "../interfaces/IAnnouncementProps";
+"use client";
 
-import Image from "next/image";
+import IAnnouncementProps from "../interfaces/IAnnouncementProps";
 
 const Announcement: React.FC<IAnnouncementProps> = ({ announcement }) => {
   if (!announcement) {

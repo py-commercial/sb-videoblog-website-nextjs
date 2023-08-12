@@ -1,3 +1,5 @@
+"use client";
+
 import announcement from "../constants/dummies/annoucement";
 
 import Announcement from "../components/Announcement";

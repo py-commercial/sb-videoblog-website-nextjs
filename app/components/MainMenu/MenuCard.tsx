@@ -1,3 +1,5 @@
+"use client";
+
 import IMainMenuItemProps from "@/app/interfaces/IMainMenuItemProps";
 
 import Image from "next/image";

@@ -40,7 +40,7 @@ body {
 }
 
 .text-behavior {
-  @apply text-sm tn:text-base xl:text-xl;
+  @apply text-sm tn:text-base xl:text-lg 2xl:text-xl;
 }
 
 .card-title-bahavior {
@@ -62,11 +62,11 @@ body {
 }
 
 .fx-start {
-  @apply flex flex-row items-center justify-start;
+  @apply flex items-center justify-start;
 }
 
 .fx-end {
-  @apply flex flex-row items-center justify-end;
+  @apply flex items-center justify-end;
 }
 
 .fx-row {

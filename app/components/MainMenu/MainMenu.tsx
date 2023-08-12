@@ -1,3 +1,5 @@
+"use client";
+
 import MainMenuItem from "@/app/types/MainMenuItem";
 import mainMenu from "../../constants/mainMenu";
 
